@@ -111,7 +111,7 @@ footer img {
 /* Celulares */
 @media (max-width: 575px) {
   #recive-content {
-    width: 80%;
+    width: 90%;
   }
   .section-container p,
   .section-container ul {
@@ -121,7 +121,7 @@ footer img {
     text-align: justify;
   }
   h1 {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
 
   h2 {
@@ -130,9 +130,9 @@ footer img {
 }
 
 /* Tablets */
-@media (min-width: 576px) and (max-width: 991px) {
+@media (min-width: 576px) and (max-width: 1200px) {
   #recive-content {
-    width: 70%;
+    width: 80%;
   }
   .section-container p,
   .section-container ul {
@@ -142,17 +142,10 @@ footer img {
     text-align: justify;
   }
   h1 {
-    font-size: 2rem;
+    font-size: 2.1rem;
   }
 
   h2 {
     font-size: 1.8rem;
-  }
-}
-
-/* Desktops grandes */
-@media (min-width: 992px) and (max-width: 1200px) {
-  #recive-content {
-    width: 70%;
   }
 }
